@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap");
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  /* border: red solid 0.1px; */
+  font-family: "Bai Jamjuree", sans-serif;
+  /* font-weight: 700; */
+}
+
+nav {
+  background: #1b1c20;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  height: 55px;
+}
+
+.navIcons {
+  left: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.nav-icon-button {
+  display: flex;
+  margin-right: 122px;
+  gap: 30px;
+  align-items: center;
+}
+
+button.downloadCv {
+  width: 113px;
+  height: 35px;
+  background: #1b1c20;
+  border: white solid 0.5px;
+  color: white;
+  border-radius: 9px;
+}
+
+body {
+  background: #1d1e22;
+  width: 100%;
+  height: auto;
+}
+
+.hello {
+  color: #ffffffcc;
+  font-family: "Bai Jamjuree";
+}
+
+.prince-chima {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.ui-ux {
+  font-family: Bai Jamjuree;
+  color: #0db760;
+  font-size: 32px;
+  line-height: 32px;
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+.im-prince {
+  font-family: Bai Jamjuree;
+  color: white;
+  font-size: 14px;
+  margin-top: 18px;
+}
+
+.col1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 80px;
+  width: 91%;
+  height: auto;
+  gap: 222px;
+  margin-left: 61px;
+}
+
+.hero-img {
+  width: 23%;
+}
+
+.get-in-touch {
+  margin-top: 7px;
+  width: 130px;
+  height: 35px;
+  border-radius: 8px;
+  background: #0db760;
+  border: none;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.col2 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 80px;
+  width: 91%;
+  height: auto;
+  gap: 22px;
+  margin-left: 61px;
+}
+
+.col2-row2 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.why-hire-me {
+  font-size: 25px;
+  color: white;
+}
+
+.project {
+  color: #0db760;
+}
+
+.im-specialist {
+  width: 415px;
+  font-size: 13px;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.card1,
+.card2,
+.card3 {
+  width: 210px;
+  height: 130px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  box-shadow: 5px 0px 100px 0px #f7f7f780;
+}
+
+.card1-h3,
+.card2-h3,
+.card3-h3 {
+  font-size: 14px;
+}
+.card1-p,
+.card2-p,
+.card3-p {
+  font-size: 11px;
+}
+
+.card1-card2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card-content1,
+.card-content2,
+.card-content3 {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-left: 22px;
+}
+
+.card1-img,
+.card2-img,
+.card3-img {
+  margin-bottom: 10px;
+}
+
+.col3 {
+  display: flex;
+  align-items: baseline;
+  justify-content: start;
+  margin-top: 80px;
+  width: 91%;
+  height: auto;
+  gap: 162px;
+  margin-left: 61px;
+}
+
+.education,
+.experience {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.uat,
+.boi-uat {
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.bsc,
+.ui-ux-designer {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.bsc-date,
+.ui-ux-designer-date {
+  left: 175px;
+  position: relative;
+}
+
+.yaba,
+.ux-freelancer {
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.comt-eng,
+.ux-freelancer-ex {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.comt-eng-date {
+  left: 183px;
+  position: relative;
+}
+
+.ux-freelancer-date {
+  left: 88px;
+  bottom: 30px;
+  position: relative;
+}
+
+.col4 {
+  margin-top: 60px;
+  background: #19191d;
+  width: 100%;
+  height: 450px;
+}
+
+.inner-col4 {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  gap: 28px;
+}
+
+.col4-heading {
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+.col4-p {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.projects2 {
+  color: #0db760;
+}
+
+.col4-img1 {
+  width: 18%;
+  height: fit-content;
+}
+
+.col4-img2,
+.col4-img3 {
+  width: 18%;
+  height: fit-content;
+}
+
+.col4-row1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.col4-button {
+  width: 113px;
+  height: 47px;
+  background: #0db760;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+}
